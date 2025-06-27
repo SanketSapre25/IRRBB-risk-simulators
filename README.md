@@ -49,7 +49,7 @@ Financial institutions face growing regulatory and internal pressure to quantify
 
 •	Download and run the 'BankingBook_DataSampling.ipynb' file to generate banking book sampledataset.
 
-•	Download and execute 
+•	Download and execute 'IRRBB_StressTest.ipynb' to generate EVE, NII values based on shock scenarios to align with IRRBB regultory requirements.
 
 
 **Aggregate ΔEVE for all scenarios**
