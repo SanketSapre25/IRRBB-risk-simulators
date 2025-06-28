@@ -3,14 +3,16 @@
 
 **Overview:**
 
-This repository presents a working Python prototype for Interest Rate Risk in the Banking Book (IRRBB) stress testing — including scenario-based shocks, ΔEVE and ΔNII calculations, optionality impact, and behavioral maturity adjustments.
+Interest rate risk in the banking book (IRRBB) is part of the Basel capital framework’s Pillar 2 (Supervisory Review Process). IRRBB refers to the current or prospective risk to the bank’s capital and earnings arising from adverse movements in interest rates that affect the bank’s banking book positions. When interest rates change, the present value and timing of future cash flows change. This in turn changes the underlying value of a bank’s assets, liabilities and off-balance sheet items and hence its economic value. Changes in interest rates also affect a bank’s earnings by altering interest rate-sensitive income and expenses, affecting its net interest income (NII). Excessive IRRBB can pose a significant threat to a bank’s current capital base and/or future earnings if not managed appropriately. 
+
+This repository presents a working Python prototype for Interest Rate Risk in the Banking Book (IRRBB) stress testing model, which includesvisualisation of scenario-based shocks, ΔEVE and ΔNII calculations, optionality impact, and behavioral maturity adjustments. Here are the links to respective IRRBB directives for India and Australia -
+
+India: https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=12456&Mode=0
+
+Australia: https://www.apra.gov.au/interest-rate-risk-banking-book
+
+
 This model was built as part of a personal upskilling journey — applying core concepts from banking risk and regulatory frameworks into hands-on analytics using Python and Pandas library.
-
-
-**Problem Statement:**
-
-Financial institutions face growing regulatory and internal pressure to quantify and communicate IRRBB exposures with precision and agility.
-
 
 **Objectives:**
 - Translate IRRBB concepts into executable Python logic
@@ -67,9 +69,7 @@ Financial institutions face growing regulatory and internal pressure to quantify
 •	Database Support: Store banking book data in SQLite or PostgreSQL using sqlalchemy for scalability.
 
 
-**Authos:**
-
-Sanket Sapre
+**Author:** Sanket Sapre
 
 LinkedIn: https://www.linkedin.com/in/sanket-sapre-483a102a/
 
